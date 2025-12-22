@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Plateforme Stream</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0f172a; color: white; }
+        .video-card:hover { transform: scale(1.05); transition: 0.3s; }
+    </style>
+</head>
+<body class="p-8">
+
+    <nav class="flex justify-between items-center mb-10">
+        <h1 class="text-3xl font-bold text-red-600">MY STREAM</h1>
+        <div class="space-x-4">
+            <a href="#" class="hover:text-red-500">Films</a>
+            <a href="#" class="hover:text-red-500">Séries</a>
+            <a href="#" class="hover:text-red-500">Nouveautés</a>
+        </div>
+    </nav>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <div class="video-card bg-slate-800 p-4 rounded-xl shadow-lg">
+            <h2 class="text-xl mb-3 font-semibold">Titre de la Vidéo 1</h2>
+            <div class="aspect-video">
+                <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p class="mt-2 text-gray-400 text-sm">Description courte du contenu...</p>
+        </div>
+
+        <div class="video-card bg-slate-800 p-4 rounded-xl shadow-lg">
+            <h2 class="text-xl mb-3 font-semibold">Titre de la Vidéo 2</h2>
+            <div class="aspect-video">
+                <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p class="mt-2 text-gray-400 text-sm">Description courte du contenu...</p>
+        </div>
+
+    </div>
+
+    <footer class="mt-20 text-center text-gray-500 border-t border-gray-700 pt-5">
+        &copy; 2025 Ma Plateforme de Streaming Gratuite
+    </footer>
+
+</body>
+              </html>
+              
